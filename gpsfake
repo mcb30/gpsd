@@ -222,7 +222,7 @@ if __name__ == '__main__':
                 # sentences to arrive before the watch takes effect.
                 # This needs to increase if leading sentences in
                 # test loads aren't being processed.
-                time.sleep(1)
+                time.sleep(1.4)
             test.run()
         except socket.error, msg:
             sys.stderr.write("gpsfake: socket error %s.\n" % msg)
